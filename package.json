@@ -4,6 +4,7 @@
   "description": "es6, stopper",
   "main": "index.js",
   "scripts": {
+	"start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Dominikanam/stopper/issues"
   },
-  "homepage": "https://github.com/Dominikanam/stopper#readme"
+  "homepage": "https://github.com/Dominikanam/stopper#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }

@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Timer!</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <nav class="controls">
-      <a href="#" class="button" id="start">Start</a>
-      <a href="#" class="button" id="stop">Stop</a>
-    </nav>
-    <div class="stopwatch"></div>
-    <ul class="results"></ul>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Timer!</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<main id="App"></main>
+		<script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+		<script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+		<script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+
+		<script>
+			var Stopwatch, StopwatchControls, StopwatchButton, StopwatchDisplay
+		</script>
+
+		<script type="text/babel" src="components/Stopwatch.js"></script>
+		<script type="text/babel" src="components/StopwatchControls.js"></script>
+		<script type="text/babel" src="components/StopwatchButton.js"></script>
+		<script type="text/babel" src="components/StopwatchDisplay.js"></script>
+		<script type="text/babel" src="script.js"></script>
+	</body>
 </html>
