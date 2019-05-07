@@ -1,0 +1,23 @@
+{
+  "name": "stopper",
+  "version": "1.0.0",
+  "description": "es6, stopper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dominikanam/stopper.git"
+  },
+  "keywords": [
+    "es6",
+    "stopper"
+  ],
+  "author": "dominika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dominikanam/stopper/issues"
+  },
+  "homepage": "https://github.com/Dominikanam/stopper#readme"
+}
